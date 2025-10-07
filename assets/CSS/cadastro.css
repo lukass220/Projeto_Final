@@ -1,0 +1,84 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('https://i.imgur.com/0H7ZyoG.gif') no-repeat center center fixed;
+  background-size: cover;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bg-img {
+  position: fixed;      
+  top: 0;
+  left: 0;
+  width: 100%;         
+  height: 100%;         
+  object-fit: cover;    
+  z-index: -1;      
+}
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.titulo {
+  background-color: gold;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+}
+
+.formulario input,
+.formulario button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin: 10px auto;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  background-color: gold;
+  color: black;
+  cursor: pointer;
+}
+
+.formulario input::placeholder {
+  color: black;
+}
+
+.formulario button:hover {
+  background-color: #e6c200;
+}
+
+.rodape {
+  background-color: gold;
+  padding: 15px 10px;
+  border-radius: 25px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rodape nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.rodape .social a {
+  margin-left: 10px;
+  color: black;
+  font-size: 22px;
+}
